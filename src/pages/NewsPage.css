@@ -1,0 +1,38 @@
+.news-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .news-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .news-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .news-footer a {
+    text-decoration: none;
+    color: #888;
+    margin: 0 10px;
+  }
+  
+  .news-footer .divider {
+    margin: 0 10px;
+    color: #ccc;
+  }
+  

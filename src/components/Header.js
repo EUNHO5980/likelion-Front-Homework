@@ -1,18 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faSearch } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/logo.png'; 
-
 const Header = ({ isLoggedIn }) => {
   return (
     <header className="header">
       <div className="logo">
-        <img src={logo} alt="투자가 머니 로고" />
+        <Link to="/">
+          <img src={logo} alt="투자가 머니 로고" />
+        </Link>
       </div>
       <nav className="nav">
-        <a href="/news">뉴스</a>
-        <a href="/courses">교과서</a>
+        <Link to="/news">뉴스</Link>
+        <Link to="/courses">교과서</Link>
       </nav>
       <div className="login-section">
         <div className="search-bar">
@@ -26,7 +28,7 @@ const Header = ({ isLoggedIn }) => {
           </div>
         ) : (
           <div className="login">
-            <a href="/login">로그인</a>
+            <Link to="/login">로그인</Link>
           </div>
         )}
       </div>
