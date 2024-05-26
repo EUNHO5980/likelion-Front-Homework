@@ -1,0 +1,19 @@
+.custom-button {
+  background-color: #73d8d8;
+  color: black;
+  border: none;
+  width: 100%;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 52px;
+}
+
+.custom-button:hover {
+  background-color: #60c4c4;
+}
