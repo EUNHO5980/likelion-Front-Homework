@@ -1,0 +1,43 @@
+.courses-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .course-item {
+    padding: 10px 0;
+  }
+  
+  .courses-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .courses-footer a {
+    text-decoration: none;
+    color: #888;
+    margin: 0 10px;
+  }
+  
+  .courses-footer .divider {
+    margin: 0 10px;
+    color: #ccc;
+  }
+  

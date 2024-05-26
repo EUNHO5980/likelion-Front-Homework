@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faSearch } from '@fortawesome/free-solid-svg-icons';
-import logo from '../assets/logo.png'; 
+import logo from '../assets/logo.png';
+
 const Header = ({ isLoggedIn }) => {
   return (
     <header className="header">

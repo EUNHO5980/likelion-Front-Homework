@@ -4,6 +4,7 @@ import Header from './components/Header';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import NewsPage from './pages/NewsPage';
+import CoursesPage from './pages/CoursesPage';
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/news" element={<NewsPage />} />
+          <Route path="/courses" element={<CoursesPage />} />
         </Routes>
       </div>
     </Router>
@@ -23,4 +25,3 @@ const App = () => {
 };
 
 export default App;
-
