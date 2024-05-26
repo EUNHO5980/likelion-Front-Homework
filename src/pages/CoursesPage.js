@@ -1,8 +1,8 @@
 import React from 'react';
 import './CoursesPage.css';
 import SectionTitle from '../components/SectionTitle';
-import icon1 from '../assets/icon.png';
-import icon2 from '../assets/icon.png';
+import icon1 from '../assets/icon3.png';
+import icon2 from '../assets/icon2.png';
 import icon3 from '../assets/icon.png';
 
 const courseData = [
